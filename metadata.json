@@ -1,0 +1,6 @@
+{
+  "name": "Servis Takip - Personel ve Öğrenci Servisi Sefer & Hak Ediş Sistemi",
+  "description": "Fabrika ve okul servisleri için geofence tabanlı otomatik sefer onayı, tek/çift sefer takibi, yolcu canlı izleme ve ay sonu hak ediş hesaplama platformu.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

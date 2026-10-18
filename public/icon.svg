@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="truck" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <rect x="12" y="12" width="488" height="488" rx="116" fill="none" stroke="#f59e0b" stroke-width="4" stroke-opacity="0.25" />
+
+  <!-- Truck Icon -->
+  <g transform="translate(64, 96)">
+    <!-- Main Trailer Body -->
+    <rect x="16" y="70" width="230" height="150" rx="20" fill="url(#truck)" />
+    <!-- White Stripe / Decal -->
+    <rect x="24" y="130" width="214" height="14" rx="7" fill="#ffffff" opacity="0.3" />
+    
+    <!-- Truck Cab -->
+    <path d="M 246 110 L 310 110 Q 330 110 345 125 L 366 150 Q 374 160 374 175 L 374 220 L 246 220 Z" fill="url(#truck)" />
+    
+    <!-- Windshield -->
+    <path d="M 258 122 L 305 122 Q 318 122 328 133 L 348 155 Q 352 160 352 166 L 258 166 Z" fill="#e0f2fe" opacity="0.9" />
+    
+    <!-- Headlight -->
+    <rect x="364" y="195" width="12" height="16" rx="4" fill="#fef08a" />
+
+    <!-- Wheels -->
+    <!-- Rear Wheel -->
+    <circle cx="85" cy="225" r="42" fill="#020617" stroke="#334155" stroke-width="6" />
+    <circle cx="85" cy="225" r="22" fill="#475569" />
+    <circle cx="85" cy="225" r="9" fill="#f8fafc" />
+    
+    <!-- Front Wheel -->
+    <circle cx="315" cy="225" r="42" fill="#020617" stroke="#334155" stroke-width="6" />
+    <circle cx="315" cy="225" r="22" fill="#475569" />
+    <circle cx="315" cy="225" r="9" fill="#f8fafc" />
+  </g>
+
+  <!-- Bottom Brand Text -->
+  <text x="256" y="420" font-family="sans-serif" font-size="34" font-weight="900" fill="#f59e0b" text-anchor="middle" letter-spacing="4">
+    SERVİS TAKİP
+  </text>
+</svg>
